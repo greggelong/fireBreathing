@@ -47,7 +47,7 @@ function draw() {
       dnoseMirror.unshift(createVector(camW - nose.x, nose.y));
 
       if (dnose.length > 200) dnose.pop();
-      if (dnoseMirror.length > 300) dnoseMirror.pop();
+      if (dnoseMirror.length > 200) dnoseMirror.pop();
 
       // draw both trails in ONE pg
       pg.clear();
